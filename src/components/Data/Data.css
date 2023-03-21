@@ -1,0 +1,258 @@
+@font-face {
+    font-family: 'Bold';
+    src: url('Myriad Pro Bold SemiExtended.otf') format('truetype');
+  }
+  
+@font-face {
+    font-family: 'Light';
+    src: url('Myriad Pro Light SemiExtended.otf') format('truetype');
+}
+
+.homeDiv4 {
+    width: 100%;
+    padding: 1% 3%;
+    height: 107px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 100;
+    box-shadow: 10px 10px 8px 10px #888888;
+}
+
+.homeDiv5 {
+    width: 520px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.homeDiv6 {
+    width: 38%;
+    height: 80px;
+}
+
+.homeDiv6 p {
+    font-size: 22px;
+    color: maroon;
+    font-family: 'Bold', sans-serif;
+}
+
+.homeDiv6 a {
+    font-size: 22px;
+    color: maroon;
+    font-family: 'Bold', sans-serif;
+    text-decoration: none;
+}
+
+.homeDiv6 h5 {
+    font-size: 22px;
+    font-family: 'Light', sans-serif;
+}
+
+.homeDiv6 img {
+    height: 16%;
+    width: 16%;
+    margin: 10px 42% 0 42%;
+}
+
+.homeDiv6 img:hover {
+    cursor: pointer;
+}
+
+.homeDiv7 {
+    width: 100%;
+    padding: 0 3% 0 3%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    transition: 1.7s;
+    overflow: hidden;
+    position: sticky;
+    flex-wrap: wrap;
+}
+
+.homeDiv8 {
+    width: 180px;
+    height: auto;
+}
+
+.homeDiv9 {
+    width: 300px;
+    height: auto;
+}
+
+.homeDiv99 {
+    width: 300px;
+    height: auto;
+}
+
+.homeDiv8H3 {
+    font-size: 22px;
+    font-family: 'Bold', sans-serif;
+    color: rgba(0, 0, 0, 0.782);
+    margin-bottom: 18px;
+}
+
+.homeDiv8H4 {
+    font-size: 22px;
+    font-family: 'Light', sans-serif;
+    margin: 0 0 18px 0;
+    color: rgba(0, 0, 0, 0.782);
+}
+
+.homeDiv8P {
+    font-size: 22px;
+    font-family: 'Light', sans-serif;
+    color: rgba(0, 0, 0, 0.782);
+}
+
+.homeDiv8A {
+    font-size: 22px;
+    font-family: 'Light', sans-serif;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.782);
+}
+
+.homeDiv10 {
+    width: 110px;
+    height: 100px;
+}
+
+.homeImg2 {
+    width: 70px;
+    height: 50px;
+}
+
+.homeDiv11 {
+    width: 100%;
+    height: 70px;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.homeDiv11 img {
+    width: 22px;
+    height: 22px;
+}
+
+.homeDiv11 img:hover {
+    cursor: pointer;
+}
+
+.homeDiv12 {
+    width: 100px;
+    height: 70px;
+    margin-top: 100px;
+}
+
+.homeImg3 {
+    width: 40px;
+    height: 40px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .homeDiv4 {
+        height: 70px;
+    }
+
+    .img2 {
+        width: 20px;
+        height: 20px;
+    }
+
+    .homeDiv6 {
+        width: 130px;
+    }
+
+    .homeDiv6 a, .homeDiv6 p, .homeDiv6 h5 {
+        font-size: 15px;
+    }
+
+    .homeDiv12 {
+        margin: 0;
+    }
+    
+    .homeDiv7 {
+        text-align: center;
+    }
+
+    .homeDiv8 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .homeDiv10 {
+        width: 100%;
+        padding: 0 20%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .homeDiv4 {
+        height: 70px;
+    }
+
+    .img2 {
+        width: 20px;
+        height: 20px;
+    }
+
+    .homeDiv6 {
+        width: 130px;
+    }
+
+    .homeDiv6 a, .homeDiv6 p, .homeDiv6 h5 {
+        font-size: 15px;
+    }
+
+    .homeDiv12 {
+        margin: 0;
+    }
+    
+    .homeDiv7 {
+        text-align: center;
+    }
+
+    .homeDiv8 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .homeDiv10 {
+        width: 100%;
+        padding: 0 30%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .homeDiv9, .homeDiv99 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .homeDiv7 {
+        padding-bottom: 80px;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    .homeDiv7 {
+        padding-bottom: 80px;
+    }
+}
+
+

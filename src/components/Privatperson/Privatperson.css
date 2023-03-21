@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'Semibold';
+    src: url('Myriad Pro Semibold SemiExtended.otf') format('truetype');
+}
+
+.privatperson {
+    width: 100%;
+    height: auto;
+    padding: 55px 3% 55px 3%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.privatpersonDiv {
+    width: 280px;
+    height: 280px;
+    position: relative;
+}
+
+.privatpersonDiv2 {
+    width: 280px;
+    height: 280px;
+    position: relative;
+    margin-left: 315px;
+}
+
+.privatpersonDiv img, .privatpersonDiv2 img {
+    width: 280px;
+    height: 280px;
+    filter: invert(20%);
+}
+
+.privatpersonDiv h1, .privatpersonDiv2 h1 {
+    position: absolute;
+    top: 118.5px;
+    font-size: 36px;
+    font-family: 'Semibold', sans-serif;
+    color: #ffffffdf;
+    text-align: center;
+    width: 100%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .privatperson {
+        width: 100%;
+        height: 2000px;
+        padding: 22% 3% 0 3%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .privatpersonDiv2 {
+        width: 280px;
+        height: 280px;
+        position: relative;
+        margin-bottom: 15px;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .privatperson {
+        width: 100%;
+        height: 2250px;
+        padding: 13% 3% 0 3%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .privatpersonDiv2, .privatpersonDiv {
+        width: 280px;
+        height: 280px;
+        position: relative;
+        margin: 0 0;
+    }
+
+    .privatpersonDiv img, .privatpersonDiv2 img {
+        width: 280;
+        height: 280px;
+        filter: invert(20%);
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .privatperson {
+        width: 100%;
+        height: auto;
+        padding: 13% 3% 20px 3%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .privatpersonDiv2, .privatpersonDiv {
+        width: 280px;
+        height: 280px;
+        position: relative;
+        margin: 15px 0;
+    }
+
+    .privatpersonDiv img, .privatpersonDiv2 img {
+        width: 280px;
+        height: 280px;
+        filter: invert(20%);
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    .privatperson {
+        width: 100%;
+        height: auto;
+        padding: 9% 3% 35px 3%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .privatpersonDiv2, .privatpersonDiv {
+        width: 280px;
+        height: 280px;
+        position: relative;
+        margin: 15px 0;
+    }
+
+    .privatpersonDiv2 {
+        width: 280px;
+        height: 280px;
+        position: relative;
+        margin: 15px 0;
+    }
+
+    .privatpersonDiv img, .privatpersonDiv2 img {
+        width: 280px;
+        height: 280px;
+        filter: invert(20%);
+    }
+} 
+ 
+/* @media only screen and (min-width: 1201px) {
+    
+.privatperson {
+    width: 100%;
+    height: auto;
+    padding: 125px 3% 35px 3%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.privatpersonDiv {
+    width: 280px;
+    height: 280px;
+    position: relative;
+}
+
+.privatpersonDiv2 {
+    width: 280px;
+    height: 280px;
+    position: relative;
+    margin-left: 315px;
+}
+
+.privatpersonDiv img, .privatpersonDiv2 img {
+    width: 280px;
+    height: 280px;
+    filter: invert(20%);
+}
+}  */

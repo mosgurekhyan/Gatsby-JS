@@ -1,0 +1,263 @@
+@font-face {
+    font-family: 'Semibold';
+    src: url('Myriad Pro Semibold SemiExtended.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Light';
+    src: url('Myriad Pro Light SemiExtended.otf') format('truetype');
+}
+
+.beratungstermin {
+    width: 100%;
+    padding-top: 45px;
+}
+
+.beratungstermin1 {
+    width: 100%;
+    height: 770px;
+    padding: 0 240px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hiddenDiv {
+    width: 100%;
+    height: 470px;
+    padding: 0 240px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.beratungstermin2 {
+    width: 330px;
+    height: 510px;
+}
+
+.beratungsterminH1 {
+    font-size: 42px;
+    font-family: 'Light', sans-serif;
+}
+
+.beratungsterminP {
+    font-size: 22px;
+    font-weight: lighter;
+    margin: 17px 0 8px 0;
+    font-family: 'Light', sans-serif;
+}
+
+.beratungsterminP5 {
+    font-size: 22px;
+    font-family: 'Light', sans-serif;
+    width: 78%;
+}
+
+.beratungsterminP2 {
+    font-size: 22px;
+    font-family: 'Light', sans-serif;
+    margin: 10px 0 8px 0;
+}
+
+.inp1 {
+    width: 100%;
+    border: 1.9px solid rgba(0, 0, 0, 0.724);
+    height: 25px;
+    padding: 0 15px;
+}
+
+.inp2 {
+    width: 100%;
+    border: 1.9px solid rgba(0, 0, 0, 0.724);
+    padding: 15px 0 80px 15px;
+}
+
+.beratungsterminBtn {
+    font-size: 22px;
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-weight: bolder;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90px;
+    transition: .7s;
+    font-family: 'Semibold', sans-serif;
+}
+
+.beratungsterminBtn:hover {
+    cursor: pointer;
+}
+
+.beratungsterminBtn img{
+    width: 20px;
+    height: 20px;
+    transform: rotateZ(-90deg);
+}
+
+.beratungDiv1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 17px 0;
+}
+
+.beratungDiv1 img {
+    width: 25px;
+    height: 23px;
+}
+
+.beratungsterminP6 {
+    font-size: 22px;
+    margin-top: 120px;
+    font-family: 'Semibold', sans-serif;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .beratungstermin {
+        width: 100%;
+        height: auto;
+        padding: 75px 0 35px 0;
+    }
+
+    .beratungstermin1 {
+        width: 100%;
+        height: auto;
+        padding: 0 3%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .beratungsterminP6 {
+        font-size: 16px;
+        margin-top: 40px;
+        font-weight: bolder;
+    }
+
+    .beratungstermin2 {
+        width: 100%;
+        height: 550px;
+    }
+
+    .beratungDiv1 {
+        width: 55%;
+        display: flex;
+        justify-content: space-between;
+        margin: 17px 0;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .beratungstermin {
+        width: 100%;
+        height: 300px;
+        padding: 75px 0 35px 0;
+    }
+
+    .beratungstermin1 {
+        width: 100%;
+        height: auto;
+        padding: 0 13%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .beratungsterminP6 {
+        font-size: 16px;
+        margin-top: 40px;
+        font-weight: bolder;
+    }
+
+    .beratungstermin2 {
+        width: 330px;
+        height: auto;
+        margin: 25px auto;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .beratungstermin {
+        width: 100%;
+        height: 300px;
+        padding: 75px 0 35px 0;
+    }
+
+    .beratungstermin1 {
+        width: 100%;
+        height: auto;
+        padding: 0 3%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .beratungsterminP6 {
+        font-size: 16px;
+        margin-top: 40px;
+        font-weight: bolder;
+    }
+
+    .beratungstermin2 {
+        width: 330px;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    .beratungstermin {
+        width: 100%;
+        height: 300px;
+        padding: 75px 0 35px 0;
+    }
+
+    .beratungstermin1 {
+        width: 100%;
+        height: auto;
+        padding: 5% 10%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .beratungsterminP6 {
+        font-size: 16px;
+        margin-top: 40px;
+        font-weight: bolder;
+    }
+
+    .beratungstermin2 {
+        width: 330px;
+        height: auto;
+    }
+}
+
+/* @media only screen and (min-width: 1201px) {
+    .beratungstermin {
+        width: 100%;
+        height: 300px;
+        padding: 75px 0 35px 0;
+    }
+
+    .beratungstermin1 {
+        width: 100%;
+        height: auto;
+        padding: 5% 22%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .beratungsterminP6 {
+        font-size: 16px;
+        margin-top: 40px;
+        font-weight: bolder;
+    }
+
+    .beratungstermin2 {
+        width: 330px;
+        height: auto;
+    }
+}  */

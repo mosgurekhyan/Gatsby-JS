@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'Bold';
+    src: url('Myriad Pro Bold SemiExtended.otf') format('truetype');
+  }
+  
+@font-face {
+    font-family: 'Light';
+    src: url('Myriad Pro Light SemiExtended.otf') format('truetype');
+}
+
+.homeDiv {
+    padding-top: 115px;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.clock {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: #33333322;
+}
+
+.clockLine1 {
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 98.5px;
+    left: 4%;
+}
+
+.clockLine2 {
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    transform: rotateZ(90deg);
+    top: 98.5px;
+    left: 4%;
+}
+
+.line {
+    width: 15px;
+    height: 3px;
+    background-color: black;
+}
+
+.state1 {
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    left: 47%;
+    top: 25%;
+    transform: rotateZ(-50deg);
+}
+
+.state2 {
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    left: 52%;
+    top: 38%;
+    transform: rotateZ(-30deg);
+}
+
+.state3 {
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    left: 54%;
+    top: 41%;
+    transform: rotateZ(-10deg);
+}
+
+.state4 {
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    left: 39%;
+    top: 68%;
+    transform: rotateZ(75deg);
+}
+
+.hour-hand,
+.minute-hand,
+.second-hand,
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 50% 0%;
+}
+
+.hour-hand {
+    width: 1px;
+    height: 60px;
+    background-color: #333;
+    margin-left: -0.5px;
+}
+
+.minute-hand {
+    width: .8px;
+    height: 80px;
+    background-color: #333;
+    margin-left: -0.4px;
+}
+
+.second-hand {
+    width: 0.5px;
+    height: 100px;
+    background-color: red;
+    margin-left: -0.25px;
+}
+
+.center {
+    width: 12px;
+    height: 12px;
+    background-color: #333;
+    border-radius: 50%;
+    margin-left: -6px;
+    margin-top: -6px;
+}
+
+.homeDiv2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 13%;
+}
+
+.homeDiv3 {
+    width: 100%;
+    height: auto;
+    padding: 0 14.5%;
+    margin-top: 15px;
+}
+
+.homeDiv3 h1 {
+    font-size: 60px;
+    font-family: "Bold";
+}
+
+.homeDiv3 h2 {
+    font-size: 38px;
+    margin-top: 20px;
+    font-family: 'Light';
+    width: 750px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .homeDiv3 {
+        text-align: center;
+    }
+
+    .homeDiv3 h2 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .homeDiv3 {
+        text-align: center;
+    }
+
+    .homeDiv3 h2 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .homeDiv3 {
+        text-align: center;
+    }
+
+    .homeDiv3 h2 {
+        width: 100%;
+    }
+}
+ 

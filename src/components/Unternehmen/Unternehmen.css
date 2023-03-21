@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Light';
+    src: url('Myriad Pro Light SemiExtended.otf') format('truetype');
+}
+
+.unternehmenH5 {
+    position: absolute;
+    top: 18px;
+    font-size: 22px;
+    color: #ffffffc9;
+    left: 18px;
+    width: 90px;
+    font-family: 'Light', sans-serif;
+    line-height: 24px;
+}

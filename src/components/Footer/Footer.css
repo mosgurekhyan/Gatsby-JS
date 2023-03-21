@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'Semibold';
+    src: url('Myriad Pro Semibold SemiExtended.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Light';
+    src: url('Myriad Pro Light SemiExtended.otf') format('truetype');
+}
+
+.footer {
+    width: 100%;
+    height: 207px;
+    padding: 20px 3%;
+    z-index: 200;
+}
+
+.border {
+    width: 100%;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.193);
+    margin-bottom: 17px;
+}
+
+.footerDiv {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footerUl {
+    width: 42%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLi {
+    list-style: none;
+    width: fit-content;
+    height: 150px;
+}
+
+.mainLi {
+    font-size: 22px !important;
+    font-family: 'Semibold', sans-serif !important;
+}
+
+.footerLi li {
+    list-style: none;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: 'Light', sans-serif;
+}
+
+.footerLi a {
+    font-family: 'Light', sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.318);
+}
+
+.footerLi a:hover {
+    cursor: pointer;
+}
+
+.img2 {
+    width: 55px;
+    height: 55px;
+}
+
+.footerDiv1 {
+    height: 150px;
+    width: 27%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerP {
+    font-size: 11px;
+    width: 50px;
+    font-family: 'Light', sans-serif;
+    color: rgba(0, 0, 0, 0.318);
+}
+
+.footerDiv2 {
+    height: 150px;
+    width: 157px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerDiv3 {
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img3 {
+    width: 35px;
+    height: 35px;
+}
+
+.footerH3 {
+    font-size: 22px;
+    font-family: 'Light', sans-serif;
+    color: rgba(0, 0, 0, 0.318);
+    margin: 20px 0;
+}
+
+.footerH6 {
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.318);
+    font-family: 'Light', sans-serif;
+}
+
+.footerH6 a {
+    text-decoration: none;
+    font-family: 'Semibold', sans-serif;
+    font-size: 11px;
+    color: black;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .footerUl {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .footerDiv1 {
+        height: 200px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 200px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .footerUl {
+        width: 42%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .footerDiv1 {
+        height: 200px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerP {
+        margin-bottom: 20px;
+    }
+
+    .footerLi {
+        margin: 20px 0;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .footerUl {
+        width: 41%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .footerDiv1 {
+        height: 200px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerP {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    .footer {
+        height: 220px;
+        justify-content: space-between;
+    }
+
+    .footerUl {
+        width: 700px !important;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footerDiv {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/* @media only screen and (min-width: 1201px) {
+    .footerUl {
+        width: 700px !important;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer {
+        height: 208px;
+    }
+
+    .footerDiv {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+} */

@@ -1,0 +1,322 @@
+@font-face {
+    font-family: 'Light';
+    src: url('Myriad Pro Light SemiExtended.otf') format('truetype');
+}
+
+.anwälte {
+    width: 100%;
+    height: 870px;
+    padding: 45px 300px 20px 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.anwälte1 {
+    width: 340px;
+    height: 690px;
+    position: relative;
+}
+
+.anwälte2 {
+    width: 340px;
+    height: 690px;
+    position: relative;
+}
+
+.anwälteImg1 {
+    margin: 20px 6% 0 6%;
+    width: 88%;
+    height: 320px;
+    object-fit: cover;
+}
+
+.anwälteDiv1 {
+    position: absolute;
+    width: 100%;
+    top: 330px;
+    padding: 3% 6%;
+    background-color: rgba(100, 148, 237, 0.658);
+    overflow: hidden;
+    transition: 1.2s;
+}
+
+.anwälte p {
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.784);
+    width: 100%;
+    text-align: center;
+    margin-top: -20px;
+    font-family: 'Light', sans-serif;
+}
+
+.anwälteImg2 {
+    width: 8%;
+    height: 8%;
+    margin: 75px 46% 0 46%;
+}
+
+.anwälteImg3 {
+    width: 8%;
+    height: 8%;
+    margin: 75px 46% 0 46%;
+}
+
+.anwälteImg2:hover, .anwälteImg3:hover {
+    cursor: pointer;
+}
+
+.anwälteDiv1 h4 {
+    font-size: 22px;
+    color: #ffffffca;
+    font-family: 'Light', sans-serif;
+}
+
+.anwälteH2 {
+    font-size: 42px;
+    font-family: 'Light', sans-serif;
+    color: rgba(0, 0, 0, 0.758);
+    margin-left: 6%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	.anwälte {
+        width: 100%;
+        padding: 0 3%;
+        flex-direction: column;
+        height: 1000px;
+    }
+
+    .anwälte1 {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin-bottom: 60px;
+        margin-top: 70px;
+        text-align: center;
+    }
+
+    .anwälte2 {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin-bottom: 60px;
+        margin-top: 40px;
+    }
+
+    .anwälte p {
+        font-size: 22px;
+        color: rgba(0, 0, 0, 0.784);
+        width: 100%;
+        text-align: center;
+        margin-top: 0px;
+        font-family: 'Light', sans-serif;
+    }
+
+    .anwälteImg2 {
+        width: 8%;
+        height: 8%;
+        margin: 75px 46% 0 46%;
+    }
+
+    .anwälteImg3 {
+        width: 8%;
+        height: 8%;
+        margin: 30px 46% 0 46%;
+    }
+
+    .anwälteH2 {
+        font-size: 42px;
+        font-family: 'Light', sans-serif;
+        color: rgba(0, 0, 0, 0.758);
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .anwälteH2 {
+        font-size: 42px;
+        font-family: 'Light', sans-serif;
+        color: rgba(0, 0, 0, 0.758);
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+	.anwälte {
+        width: 100%;
+        padding: 0 3%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .anwälte1 {
+        width: 90%;
+        height: auto;
+        position: relative;
+        margin-bottom: 60px;
+        margin-top: 70px;
+    }
+
+    .anwälte2 {
+        width: 90%;
+        height: auto;
+        position: relative;
+        margin-bottom: 60px;
+    }
+
+    .anwälte p {
+        font-size: 22px;
+        color: rgba(0, 0, 0, 0.784);
+        width: 100%;
+        text-align: center;
+        margin-top: 1px;
+        font-family: 'Light', sans-serif;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+	.anwälte {
+        width: 100%;
+        padding: 0 3%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .anwälte p {
+        font-size: 22px;
+        color: rgba(0, 0, 0, 0.784);
+        width: 100%;
+        text-align: center;
+        margin-top: 1px;
+        font-family: 'Light', sans-serif;
+    }
+
+    .anwälte1 {
+        width: 50%;
+        height: auto;
+        position: relative;
+        margin-bottom: 60px;
+        margin-top: 50px;
+    }
+
+    .anwälte2 {
+        width: 50%;
+        height: auto;
+        position: relative;
+        margin-bottom: 60px;
+        margin-top: 50px;
+    }
+
+    .anwälteDiv1 {
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        top: 330px;
+        padding: 2% 6%;
+        background-color: rgba(100, 148, 237, 0.658);
+        overflow: hidden;
+        transition: 1.2s;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+	.anwälte {
+        width: 100%;
+        padding: 0 3%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: 50px;
+    }
+
+    .anwälte1 {
+        width: 45%;
+        height: auto;
+        position: relative;
+        margin-bottom: 60px;
+        margin-top: 50px;
+    }
+
+    .anwälte2 {
+        width: 45%;
+        height: auto;
+        position: relative;
+        margin-bottom: 60px;
+        margin-top: 50px;
+    }
+
+    .anwälteDiv1 {
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        top: 330px;
+        padding: 2% 6%;
+        background-color: rgba(100, 148, 237, 0.658);
+        overflow: hidden;
+        transition: 1.2s;
+    }
+    
+    .anwälte p {
+        font-size: 22px;
+        color: rgba(0, 0, 0, 0.784);
+        width: 100%;
+        text-align: center;
+        margin-top: 1px;
+        font-family: 'Light', sans-serif;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+	.anwälte {
+        width: 100%;
+        padding: 0 3%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .anwälte1 {
+        width: 40%;
+        height: auto;
+        position: relative;
+        margin-bottom: 60px;
+        margin-top: 50px;
+    }
+
+    .anwälte2 {
+        width: 40%;
+        height: auto;
+        position: relative;
+        margin-bottom: 60px;
+        margin-top: 50px;
+    }
+
+    .anwälteDiv1 {
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        top: 330px;
+        padding: 2% 6%;
+        background-color: rgba(100, 148, 237, 0.658);
+        overflow: hidden;
+        transition: 1.2s;
+    }
+
+    
+    .anwälte p {
+        font-size: 22px;
+        color: rgba(0, 0, 0, 0.784);
+        width: 100%;
+        text-align: center;
+        margin-top: 1px;
+        font-family: 'Light', sans-serif;
+    }
+} 

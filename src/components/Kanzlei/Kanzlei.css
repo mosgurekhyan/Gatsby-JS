@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Semibold';
+    src: url('Myriad Pro Semibold SemiExtended.otf') format('truetype');
+}
+  
+@font-face {
+    font-family: 'Light';
+    src: url('Myriad Pro Light SemiExtended.otf') format('truetype');
+}
+
+.kanzlei {
+    width: 100%;
+    height: auto;
+    padding: 45px 255px 35px 255px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.kanzlei1 {
+    width: 350px;
+    height: auto;
+}
+
+.kanzlei1 h1 {
+    font-size: 42px;
+    font-family: 'Light', sans-serif;
+}
+
+.h31 {
+    font-size: 22px;
+    font-family: 'Semibold', sans-serif;
+    margin-top: 17px;
+}
+
+.h32 {
+    font-size: 22px;
+    font-family: 'Semibold', sans-serif;
+    margin-top: 49px;
+}
+
+.kanzlei1 p {
+    font-size: 22px;
+    font-family: 'Light', sans-serif;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .kanzlei {
+        width: 100%;
+        height: 1730px;
+        padding: 3%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .kanzlei1 {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .kanzlei {
+        width: 100%;
+        height: auto;
+        padding: 16% 3% 0 3%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .kanzlei1 {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .kanzlei {
+        width: 100%;
+        height: auto;
+        padding: 13% 3% 0 3%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .kanzlei1 {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    .kanzlei {
+        width: 100%;
+        height: auto;
+        padding: 10% 3% 0 3%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .kanzlei1 {
+        width: 100%;
+    }
+}
